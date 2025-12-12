@@ -1,0 +1,7 @@
+# Finance Reporting Modernization – Azure + Python
+pandas>=2.0.0
+pyarrow>=12.0.0          # for parquet support
+openpyxl>=3.1.0          # for Excel reading
+python-dotenv>=1.0.0     # optional – for secrets later
+azure-identity>=1.12.0   # for future Azure auth
+azure-storage-blob>=12.0 # for future Data Lake
